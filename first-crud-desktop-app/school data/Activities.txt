@@ -1,0 +1,5 @@
+Activity: Empty Location: Empty Plan: Empty Tutor: Activity Coordinator
+Activity: Pisoc Location: Computer Suite Plan: Automating life Tutor: Cameron
+Activity: Rugby Location: Football Field Plan: Practising set-plays Tutor: Dan
+Activity: Basketball Location: Basketball court Plan: Practising Dribbling Tutor: August
+Activity: Ice-skating Location: Ice Arena Plan: Stamina training Tutor: Alessa

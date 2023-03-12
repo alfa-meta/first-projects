@@ -1,0 +1,7 @@
+Tutor: Cameron Student Name: Tomas Stuikys Activity: Pisoc
+Tutor: Cameron Student Name: Harry Activity: Pisoc
+Tutor: Dan Student Name: Deividas Baksys Activity: Rugby
+Tutor: Dan Student Name: Random Activity: Rugby
+Tutor: Dan Student Name: Jesper Activity: Rugby
+Tutor: August Student Name: Hagrid Activity: Basketball
+Tutor: Alessa Student Name: Hermione Activity: Ice-skating

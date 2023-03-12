@@ -1,0 +1,137 @@
+/* style.css file */
+
+/* Colour Hexadecimal values used in this project:
+	Black: #000000
+	Light Grey: #F1F1F1;
+	Light Green: #86dc28;
+	Dark Green: #649500;
+	Dark Red: #862928;
+ */
+ 
+/* Changes the background color to grey aswell as the font family to arial.  */
+body {
+	background: #F1F1F1;
+	font-family: arial;
+}
+h1 {
+	font-size: 18px;
+}
+a {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+h2 {
+	font-size: 16px;
+}
+p {
+	font-size: 14px;
+}
+
+/* Styles the banner div. Used as a header for a website. */
+.header {
+	background-color: #F1F1F1;
+	text-align: center;
+	padding: 20px;
+	
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.footer {
+	background-color: #862928;
+	text-align: center;
+	padding: 10px;
+}
+
+
+.container {
+	/* Percentage of screen coverage in width and height.*/
+	width: 97vw;
+	height: 90vh;
+	
+	display: grid;
+	
+	/* 3 collumns */
+	grid-template-columns: repeat(5, 1fr);
+	
+	/* Row height in pixels:
+		Top row
+		2nd row
+		3rd row
+		Bottom row
+	*/
+	grid-template-rows: 50px 1fr 1fr 0px;
+	
+	gap: 10px;
+	padding: 10px;
+}
+
+.container div {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+/*
+	The grid uses 5 columns and 3 rows.
+	content-left and content-right are used 
+	as a placeholder to hold objects in other pages 
+	aswell as a way to make the center of the page more appealing
+	and easier to read. Without having the user to read from one side of the screen to the other.
+*/
+.content-large{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
+
+/*
+	Both content-left and right will be invisible for most pages.
+	To establish a page structure.
+*/
+.content-left{
+	visibility: hidden;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
+.content-right{
+	visibility: hidden;
+	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
+
+/* The following lines are for navigation menu. */
+
+.navmenu{
+	/* Clip the content out of bounds */
+	overflow: hidden;
+	background-color: #649500;
+}
+
+.navmenu a{
+	width: 15%;
+	height: 3vh;
+	float: left;
+	display: block;
+	padding-top: 10px;
+	color: #F1F1F1;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navmenu a:hover {
+  background-color: #862928;
+  color: #86dc28;
+}
+
